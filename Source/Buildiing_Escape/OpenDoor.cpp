@@ -80,7 +80,6 @@ void UOpenDoor::OpenDoor(float DeltaTime)
 	}
 
 	GetOwner()->SetActorRotation(DesiredRotation);
-
 }
 
 void UOpenDoor::CloseDoor(float DeltaTime)
